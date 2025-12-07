@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adinkra Stitches | Premium Tailoring in Ghana</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧵</text></svg>">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-vest"></i>
+                <span>Adinkra Stitches</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Traditional & Contemporary Tailoring in Ghana</h1>
+            <p>Expert craftsmanship blending cultural heritage with modern fashion</p>
+            <a href="#booking" class="btn">Book a Consultation</a>
+        </div>
+       
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Tailoring Services</h2>
+            <p class="section-subtitle">Precision stitching for every occasion</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Traditional Attire</h3>
+                    <p>Custom-made Kente, Agbada, Kaba, and Slit dresses with authentic Ghanaian patterns.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3>Western Wear</h3>
+                    <p>Tailored suits, dresses, shirts, and trousers for professional and casual settings.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Wedding Attire</h3>
+                    <p>Bridal gowns, groom's suits, and traditional wedding outfits for your special day.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-undo-alt"></i>
+                    </div>
+                    <h3>Alterations & Repairs</h3>
+                    <p>Professional alterations, repairs, and adjustments for perfect fit and style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Our Work Portfolio</h2>
+            <p class="section-subtitle">Showcasing excellence in Ghanaian tailoring</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="  images/Traditional Kente.jpg " alt="Traditional Kente Outfit">
+                    <div class="portfolio-overlay">
+                        <h3>Traditional Kente</h3>
+                        <p>Handwoven Kente fabric tailored into modern styles</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="images/Wedding Collection.jpg" alt="Wedding Attire">
+                    <div class="portfolio-overlay">
+                        <h3>Wedding Collection</h3>
+                        <p>Custom bridal and groom outfits for traditional weddings</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="images/Contemporary Styles.jpg" alt="Modern African Fashion">
+                    <div class="portfolio-overlay">
+                        <h3>Contemporary Styles</h3>
+                        <p>Modern designs with African fabric accents</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="section booking-section">
+        <div class="container">
+            <h2 class="section-title">Book a Consultation</h2>
+            <p class="section-subtitle">Schedule an appointment for measurements and design discussion</p>
+            
+            <div class="booking-container">
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="serviceType">Service Required *</label>
+                        <select id="serviceType" name="serviceType" required>
+                            <option value="">Select a service</option>
+                            <option value="traditional">Traditional Attire</option>
+                            <option value="western">Western Wear</option>
+                            <option value="wedding">Wedding Attire</option>
+                            <option value="alterations">Alterations & Repairs</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="appointmentDate">Preferred Date *</label>
+                        <input type="date" id="appointmentDate" name="appointmentDate" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Additional Details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    
+                    <div class="payment-option">
+                        <h3>Payment Option</h3>
+                        <div class="payment-methods">
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="cash" checked>
+                                <span>Pay in person (Cash)</span>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="mobile_money">
+                                <span>Mobile Money (MoMo)</span>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="card">
+                                <span>Credit/Debit Card</span>
+                            </label>
+                        </div>
+                        
+                        <div class="payment-details" id="paymentDetails">
+                            <p>You can make payment when you visit our shop or via mobile money after booking confirmation.</p>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-block">Submit Booking Request</button>
+                </form>
+                
+                <div class="booking-info">
+                    <h3>Booking Information</h3>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Fashion Street, Accra, Ghana</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                            <p>Sat: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Contact</h4>
+                            <p>+233 24 123 4567</p>
+                            <p>+233 20 987 6543</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <h4>What to Expect</h4>
+                            <p>• 30-minute consultation</p>
+                            <p>• Professional measurements</p>
+                            <p>• Fabric selection guidance</p>
+                            <p>• Price quotation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get in touch for custom tailoring inquiries</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Our Shop Details</h3>
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Fashion Street, Osu, Accra, Ghana</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone Numbers</h4>
+                            <p>+233 24 123 4567 (Primary)</p>
+                            <p>+233 20 987 6543 (WhatsApp)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@adinkrastitches.com</p>
+                            <p>bookings@adinkrastitches.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 4:00 PM</p>
+                            <p>Sunday: By appointment only</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>Our Location in Accra</h4>
+                        <p>Map showing our shop location in Osu, Accra</p>
+                        <div class="map-image">
+                            <!-- embed a Google Maps iframe here -->
+                            <div class="map-overlay">
+                                <p>                 </p>
+                                <button class="btn btn-outline" id="openMap">View on Google Maps</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="#" class="logo">
+                        <i class="fas fa-vest"></i>
+                        <span>Adinkra Stitches</span>
+                    </a>
+                    <p>Preserving Ghanaian tailoring traditions while embracing contemporary fashion since 2010.</p>
+                    <div class="payment-badges">
+                        <span class="payment-badge"><i class="fas fa-mobile-alt"></i> Mobile Money</span>
+                        <span class="payment-badge"><i class="fas fa-credit-card"></i> Cards Accepted</span>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#booking">Booking</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Traditional Attire</a></li>
+                        <li><a href="#services">Western Wear</a></li>
+                        <li><a href="#services">Wedding Attire</a></li>
+                        <li><a href="#services">Alterations & Repairs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, Accra</li>
+                        <li><i class="fas fa-phone"></i> +233 24 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@adinkrastitches.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adinkra Stitches. All rights reserved. | Crafted with <i class="fas fa-heart"></i> in Ghana</p>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Success Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Booking Submitted Successfully!</h2>
+            <p>Thank you for booking a consultation with Adinkra Stitches. We have received your request and will contact you within 24 hours to confirm your appointment.</p>
+            <p><strong>Reference ID:</strong> <span id="referenceId">ADS-2023-001</span></p>
+            <button class="btn" id="closeModalBtn">Done</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
